@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Budget Tracker</h1>
+  
+  <div id="budget-form">
+    <input type="text" id="description" placeholder="Description" />
+    <input type="number" id="amount" placeholder="Amount" />
+    <button id="add-transaction">Add</button>
+  </div>
+
+  <div id="summary">
+    <h3>Balance: $<span id="balance">0</span></h3>
+    <p>Income: $<span id="income">0</span> | Expenses: $<span id="expenses">0</span></p>
+  </div>
+
+  <ul id="transaction-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
