@@ -24,3 +24,32 @@ body {
 .expense {
   color: red;
 }
+body {
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+}
+#budget-form input, #budget-form button {
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+.income {
+  background-color: #e8f5e9;
+  color: green;
+  border-left: 4px solid green;
+  padding: 5px;
+  margin: 5px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.expense {
+  background-color: #ffebee;
+  color: red;
+  border-left: 4px solid red;
+  padding: 5px;
+  margin: 5px auto;
+  max-width: 400px;
+  text-align: left;
+}
